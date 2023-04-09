@@ -1736,6 +1736,10 @@ body.has-loading-screen.loading-done:after {
     height: 100vh;
     position: relative;
     overflow: hidden;
+    background-image: url('https://images.unsplash.com/photo-1551368321-dddf8a05c459?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80');
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #ts-hero .ts-background-image {
