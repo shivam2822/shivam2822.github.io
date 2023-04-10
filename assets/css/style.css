@@ -2888,6 +2888,8 @@ E. Template Specific Elements
   margin: auto;
   text-align: center;
   flex-wrap: wrap;
+  /* z-index: -1; */
+  position: sticky;
 }
 
 .wrapper {
