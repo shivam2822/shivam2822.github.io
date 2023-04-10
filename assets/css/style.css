@@ -2905,7 +2905,7 @@ E. Template Specific Elements
 
 .clash-card {
   background: white;
-  width: 300px;
+  width: 275px;
   display: inline-block;
   margin: auto;
   border-radius: 19px;
@@ -2926,71 +2926,52 @@ E. Template Specific Elements
 .clash-card__image--barbarian {
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg");
 }
-.barbarian1 {
-    width: 150px;
+.clash-card__image--barbarian img {
+    width: 295px;
     position: absolute;
-    top: -81px;
-    left: 170px;
+    top: -11px;
+    left: -10px;
 }
-
-.barbarian2 {
-    width: 250px;
-    position: absolute;
-    top: -81px;
-    left: -40px;
-}
-
-
 
 .clash-card__image--archer {
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/archer-bg.jpg");
 }
 
-.archer1 {
-    width: 150px;
+.clash-card__image--archer img {
+    width: 295px;
     position: absolute;
-    top: -81px;
-    left: 170px;
+    top: -11px;
+    left: -10px;
 }
-
-.archer2 {
-    width: 250px;
-    position: absolute;
-    top: -81px;
-    left: -40px;
-}
-
-
-
 
 .clash-card__image--giant {
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/giant-bg.jpg");
 }
 .clash-card__image--giant img {
-  width: 340px;
-  position: absolute;
-  top: -30px;
-  left: -25px;
+    width: 295px;
+    position: absolute;
+    top: -11px;
+    left: -10px;
 }
 
 .clash-card__image--goblin {
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/goblin-bg.jpg");
 }
 .clash-card__image--goblin img {
-  width: 370px;
-  position: absolute;
-  top: -21px;
-  left: -37px;
+    width: 295px;
+    position: absolute;
+    top: -11px;
+    left: -10px;
 }
 
 .clash-card__image--wizard {
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg");
 }
 .clash-card__image--wizard img {
-  width: 345px;
-  position: absolute;
-  top: -28px;
-  left: -10px;
+    width: 295px;
+    position: absolute;
+    top: -11px;
+    left: -10px;
 }
 
 .clash-card__level {
@@ -3030,6 +3011,7 @@ E. Template Specific Elements
 .clash-card__unit-description {
   padding: 20px;
   margin-bottom: 10px;
+  font-size: 16px;
 }
 
 .clash-card__unit-stats--barbarian {
