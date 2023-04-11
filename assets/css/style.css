@@ -2094,7 +2094,7 @@ D. Plugins Styles
 }
 
 .owl-carousel .owl-dots .owl-dot span {
-    background-color: #fff;
+    background-color: red;
     border-radius: 50%;
     display: inline-block;
     height: .625rem;
